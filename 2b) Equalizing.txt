@@ -1,0 +1,26 @@
+Auf der Seite https://elespejero.wordpress.com/2014/12/17/eq-4-tj-getting-the-best-sound-out-of-your-tango-records habe ich eine hervorragende Erläuterung zum Thema Equalizing gefunden, die ich hier zusammenfassend wiedergeben möchte (diese Anleitung bezieht sich auf die Ära der elektrischen Aufnahmetechnik, die zwischen 1926 und 1949 verwendet wurde (ref1). Die Qualität einiger späterer Di-Sarli-Aufnahmen [1951-1953 bei TK/Music Hall] ist allerdings so schlecht, dass man diese Tipps auch dafür verwenden kann).
+
+Zuerst einige "harte" Fakten:
+ - Dass menschliche Gehör reicht von ~20 Hz bis ~20 kHz (ausgenommen einige genetische Wunder, die von sich Ultraschall-Wahrnehmung behaupten. Beweisen konnte das aber niemand ref2), und ein Unterschied von +10 dB wird als Verdoppelung der Lautstärke empfunden (1 dB Unterschied ist kaum wahrnehmbar).
+ - Das Klavier gibt Töne wieder von 27,5 bis 4186 Hz (jede Verdoppelung der Hertz-Zahl entspricht der Erhöhung um eine Oktave).
+Die Schellack-Platte hat einen Klang-Umfang von ~30 Hz bis ~7 kHz - das entspricht fast dem vollen Klavier-Umfang plus eine knappe Oktave für Klang-Färbungen mit Obertönen.
+ - Die damalige Aufnahmetechnik hat im Klangmaterial eine Verringerung des Bass-Signals eingefügt, die von den handelsüblichen Plattenspielern wieder ausgeglichen wurde; dieser "Bass Boost" scheint aber in den Industrie-Plattenspielern gefehlt zu haben (https://elespejero.files.wordpress.com/2014/12/figure32.jpg).
+ - Das Rillen-Geräusch, welches die Nadel auf der Platte erzeugt (Hiss), ist am stärksten ausgeprägt um 7,5 kHz.
+ - Bei der Konvertierung vieler Schellack-Platten nach Vinyl haben die damaligen Toningenieure künstlichen Hall hinzugefügt, der hauptsächlich im 1-kHz-Band zu finden ist.
+
+Aus diesen Fakten lässt sich die folgende vierfältige Regel ableiten (grundsätzlich ist immer Vorsicht zu beachten, damit keine klanglichen Verzerrungen auftreten):
+ - alles unter 30 Hz soll unhörbar gemacht werden
+ - von 250 Hz runter bis ~60 Hz sollte eine aufsteigende Kurve erstellt werden ("Bass Boost"), wobei 250 Hz auf 0 dB bleiben soll und 60 Hz auf ca. +12 dB (bei einigen Digitalisierungen/Remasterings findet sich schon ein Bass Boost - bei solchen Dateien sollte man die Verstärkung entsprechend geringer ausfallen lassen).
+ - den Hall (1 kHz) um ~2 dB senken (*wenn* Hall vorhanden ist)
+ - die Höhenregion um 5,5-7 kHz sollte um 6-8 dB erhöht werden (Brillianz)
+ - alles über ~7 dB mittels einer abfallenden Kurve ausschleichen (bei 7,5 kHz ist das Rillen-Geräusch, und darüber haben wir nur noch harmonische und Kompressions-Artefakte durch MP3 und ähnliches).
+
+Noch einmal: dieses Profil gilt für die Musik von 1926-1949 (plus Di Sarli/Music Hall 1951-1953)ref3. Für die Musik ab den 50er Jahren gilt folgendes:
+Die Equalizer-Kurve sollte im Wesentlichen flach bleiben. Ein leichter Bass Boost und Hall-Entfernung können vorgenommen werden. Die relevante Höhen-Region findet sich aber jetzt zwischen 10 und 12 kHz, und alles darüber sollte nicht verändert werden. Der Grund dafür ist, dass sich die Aufnahmetechnik in der Zeit so grundlegend verbessert hatte, dass im wesentlichen *alle* Frequenzen aufgezeichnet wurden, ohne einzelne Bereiche zu verringern oder ganz abzuschneiden.
+
+Wer sich tiefer in diese faszinierende Materie einlesen will, sei auf den oben verlinkten Blog-Eintrag verwiesen. Dort finden sich auch interessante Veranschaulichungen.
+
+
+ref1: Vorher wurde mechanisch-analog gearbeitet, danach waren elektrische full range-Aufnahmen möglich.
+ref2: Allerdings ist es durchaus der Fall, dass Ultraschall die tiefer liegenden Frequenzen beeinflusst. Nun ist das bei modernsten Ultra-Hi-Range-Ausnahmegeräten möglicherweise gut für die Klangfarbe, in allen anderen Fällen finden sich hier aber nur Artefakte von Bearbeitung und Konvertierung oberhalb von 20 khz, die üblicherweise den Klang nur verschlechtern.
+ref3: Die neuesten Alben auf TangoTunes.com sind schon nach dem hier dargestellten Schema analog (yay!) remastert worden (ab der Reihe "Golden Ear Edition"); für die gilt also: kein Equalizing nötig.
